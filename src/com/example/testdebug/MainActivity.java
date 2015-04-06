@@ -15,6 +15,7 @@ public class MainActivity extends Activity
 		setContentView(R.layout.activity_main);
 		Log.i("log", "test git");
 		Log.i("log", "three");
+		Log.i("log", "sourcetree 测试");
 		String ces = "只是为了测试git的相应功能实现";
 		Toast.makeText(this, ces, Toast.LENGTH_SHORT).show();;
 	}

@@ -11,6 +11,7 @@ public class PluginClass implements Comm{
 	}
 	
 	public int function(int a , int b){
+		Log.i("Plugin", "PluginClass client initialized");
 		return a+b;
 	}
 }
